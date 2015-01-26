@@ -6107,7 +6107,8 @@ Original idea from: http://stackoverflow.com/questions/22758950/google-map-drawi
           visible: '=',
           "static": '=',
           fit: '=',
-          events: '='
+          events: '=',
+          zIndex: '=zindex'
         };
 
         IPolyline.scopeKeys = _.keys(IPolyline.scope);
